@@ -5,9 +5,9 @@
 See uploader.png in root directory
 Create a single page react application for uploading and displaying a list of images
 Image(s) can be "uploaded" on the righthand side form ("upload" = just read into a data url and saved locally https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL)
-Images are then automatically displayed in a list to the right.
+Images are then automatically displayed in a list to the right with thier file name.
 Images in the list to the right can be removed via clicking a delete button. Only the deleted image should be removed from the list.
-Additional image(s) can be added through the form once the last has been "uploaded"
+Additional image(s) can be added through the form once the last has been "uploaded" (the form resets)
 State does NOT need to be maintained between page refresh.
 
 ## Project Info
@@ -19,13 +19,14 @@ Project will automatically be served at http://localhost:8000/ with automatic re
 Choose your preferred technology.
 
 - Supports javascript / typescript
-- Supports css / styled-components (examples given, use one or the other)
+- Supports styled-components / css (examples given, use one or the other)
 - Has eslint & prettier
 
 ## General rules
 
 Use React. React components should be added in App.tsx (or remove and create App.js for javascript)
-For css, make it usuable. Doesnt need to be pretty.
+Apply basic css, make it usuable. If you have time show off.
+A responsive design is a nice to have but not nessecary.
 Utlize basic ARIA accessible & semantic rules for html elements
 Try not to use any additional libraries.
 Don't overwork it, take no more than 1 hour.
